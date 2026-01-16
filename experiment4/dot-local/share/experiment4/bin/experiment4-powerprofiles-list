@@ -1,0 +1,5 @@
+#!/bin/bash
+
+tlpctl list |
+    awk -F: '/^[* ] [^ ]/ { gsub(/^[ *]+/, ""); print $1 }' |
+    tac

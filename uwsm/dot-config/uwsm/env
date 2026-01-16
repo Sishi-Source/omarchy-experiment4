@@ -1,0 +1,15 @@
+# Changes require a restart to take effect.
+
+# Ensure Omarchy bins are in the path
+export OMARCHY_PATH=$HOME/.local/share/omarchy
+export EXPERIMENT4_PATH=$HOME/.local/share/experiment4
+export PATH=$EXPERIMENT4_PATH/bin:$OMARCHY_PATH/bin:$PATH
+
+# yayfzf no colors
+export NO_COLOR=1
+
+# Set default terminal and editor
+source ~/.config/uwsm/default
+
+# Activate mise if present on the system
+omarchy-cmd-present mise && eval "$(mise activate bash)"
