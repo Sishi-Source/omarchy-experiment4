@@ -81,6 +81,7 @@
       "class<.*fizzy.*>": "", // fizzy
       "class<.*Foliate>": "", // pdf/epub viewer
       "class<.*github.*>": "", // github
+      "class<.*gitlab.*>": "", // gitlab
       "class<nwg-look>": "", // gtk settings
       "class<gtkwave>": "󰥛", // gtkwave
       "class<imv>": "󰋩", // image viewer
