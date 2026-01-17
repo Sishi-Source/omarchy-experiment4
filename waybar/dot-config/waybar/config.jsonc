@@ -44,8 +44,8 @@
     "window-rewrite-default": "",
     "window-rewrite": {
       "class<firefox>": "󰈹", // firefox
-      "class<chromium": "", // chromium
-      "class<.*code.*>": "", // vscode
+      "class<chromium>": "", // chromium
+      "class<code>": "", // vscode
       "class<STM32CubeIDE>": "", // stm32cubeide
       "class<stlink-gui>": "", // stlink
       "class<java> title<Stm32cubeide>": "", // stm32cubeide startup
