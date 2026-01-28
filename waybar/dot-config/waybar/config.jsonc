@@ -44,7 +44,7 @@
     "window-rewrite-default": "",
     "window-rewrite": {
       "class<firefox>": "󰈹", // firefox
-      "class<chromium>": "", // chromium
+      "class<helium>": "", // helium
       "class<code>": "", // vscode
       "class<STM32CubeIDE>": "", // stm32cubeide
       "class<stlink-gui>": "", // stlink
@@ -57,6 +57,7 @@
       "class<pcb_calculator>": "", // kicad pcb calculator
       "class<pcbnew>": "", // kicad pcb editor
       "class<eeschema>": "", // kicad schematic editor
+      "class<.*cirkitdesigner.*>": "", // cirkit designer ide
       "class<.*freecad.*>": "", // freecad
       "class<draw.io>": "", // drawio desktop
       "class<.*figma.*>": "", // figma
@@ -65,6 +66,7 @@
       "class<gimp>": "", // gimp
       "class<.*Pinta.*>": "", // pinta
       "class<.*obsproject.*>": "󰧶", // obs studio
+      "title<LibreOffice>": "󰏆", // libreoffice wizard (popup configurator for new window)
       "class<soffice>": "󰏆", // libreoffice wizard (popup configurator for new window)
       "class<libreoffice-startcenter>": "󰏆", // libreoffice
       "class<libreoffice-writer>": "󱎒", // libreoffice writer (text document)
@@ -86,6 +88,7 @@
       "class<gtkwave>": "󰥛", // gtkwave
       "class<imv>": "󰋩", // image viewer
       "class<.*Loupe>": "󰋩", // image viewer
+      "class<.*Calendar>": "", // calendar
       "class<localsend>": "", // sharer
       "class<mpv>": "", // media player
       "class<obsidian>": "", // obsidian
@@ -141,7 +144,7 @@
   },
   "battery": {
     "format": "{capacity}% {icon}",
-    "format-discharging": "{icon}",
+    "format-discharging": "{icon} {capacity}%",
     "format-charging": "{icon}",
     "format-plugged": "",
     "format-icons": {
